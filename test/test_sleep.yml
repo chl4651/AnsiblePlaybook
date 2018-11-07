@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+    - name: Delay the task (20 sec)
+      shell: "sleep 20"
